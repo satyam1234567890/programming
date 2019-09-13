@@ -1,0 +1,13 @@
+map<int,int>mp;
+method 1:-
+for(map<int,int>::iterator it=mp.begin();it!=mp.end();it++)
+{
+cout<<it->first<<" "<<it->second;
+}
+
+method 2:-
+for(auto i:mp)
+{
+cout<<i.first<<" "<<i.second;
+}
+
